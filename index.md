@@ -1,7 +1,9 @@
 ---
-title: How I built my first Hardware Project, i.e., a Pen Plotter
+title: Plotter
 author: Shivam Kedia
 ---
+
+How I built my first hardware project, a pen plotter
 
 # Finding Inspiration
 
