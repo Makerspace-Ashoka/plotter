@@ -1,10 +1,3 @@
----
-title: Plotter
-author: Shivam Kedia
----
-
-How I built my first hardware project, a pen plotter
-
 # Finding Inspiration
 
 Youtube it is. Let's go!
