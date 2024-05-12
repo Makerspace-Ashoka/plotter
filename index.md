@@ -4,7 +4,7 @@ title: DIY Plotter
 
 # Materials
 
-For a comprehensive **list of parts** I used, refer to `parts_list.md` in this repo.
+For a comprehensive **list of parts** I used, refer to [<parts_list.md>](./parts_list.html)
 
 ---
 
@@ -200,7 +200,7 @@ Then I found a corresponding instructable:
 
 ## Gathering Materials
 
-Thankfully, the instructable had a Bill of Materials: https://docs.google.com/spreadsheets/d/1K6GGZx7ZxFlsE_SG4vm4hw3O7Y4HbJr1x2MOWS65IPo/edit?usp=sharing.
+Thankfully, the instructable had a Bill of Materials: [https://docs.google.com/spreadsheets/d/1K6GGZx7ZxFlsE_SG4vm4hw3O7Y4HbJr1x2MOWS65IPo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1K6GGZx7ZxFlsE_SG4vm4hw3O7Y4HbJr1x2MOWS65IPo/edit?usp=sharing).
 
 Since it was my first time, I had no clue why we needed all these parts. I compiled a shopping list, keeping some nuts and bolts as extras.
 
