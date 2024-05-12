@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Parts List
+<!-- title: Parts List -->
 ---
 
 # Structural

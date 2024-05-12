@@ -1,6 +1,6 @@
 ---
 title: Plotter
-layout: base
+<!-- layout: base -->
 ---
 
 # Materials
