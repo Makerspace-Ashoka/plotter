@@ -1,6 +1,6 @@
 # Building a Pen Plotter
 
-Refer to the [blog here.](shivamkedia17.github.io/plotter)
+Refer to the [blog here.](https://shivamkedia17.github.io/plotter)
 
 This repo contains:
 - stepper + driver + CNC shield test code, 

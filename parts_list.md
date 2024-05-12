@@ -1,26 +1,30 @@
+---
+layout: default
+title: Parts List
+---
+
 # Structural
 Aluminum Profiles (**V-Slot** only, please be careful and avoid the T-slot):
 - 2020 500 mm
 - 2040 500 mm
 
 # Mechanical
-POM Wheels x8 (packs of 2 come with 1 round spacer + 1 eccentric spacer + 2 shim washers (5x8mm) + 2 M5 low profile bolts 25mm + 2 Nyloc Nuts)
-GT2 Timing Belt (3-4 meters)
-GT2 Pulley (5mm Bore, 20 Teeth) x2
-Idler (Smooth) Pulley (5mm Bore) x2
-
-3D Printer Spring x1
-4mm Springs (Ball pen springs work)
-3mm Rods (Alternatively, cut a 75+mm nail or Use Pen refills / thin long Allen Keys)
+- POM Wheels x8 (packs of 2 come with 1 round spacer + 1 eccentric spacer + 2 shim washers (5x8mm) + 2 M5 low profile bolts 25mm + 2 Nyloc Nuts)
+- GT2 Timing Belt (3-4 meters)
+- GT2 Pulley (5mm Bore, 20 Teeth) x2
+- Idler (Smooth) Pulley (5mm Bore) x2
+- 3D Printer Spring x1
+- 4mm Springs (Ball pen springs work)
+- 3mm Rods (Alternatively, cut a 75+mm nail or Use Pen refills / thin long Allen Keys)
 
 # Electronics
-12V DC wall Adapter (comes with barrel plug)
-Arduino Uno x1
-CNC Shield V3 for Arduino x1
-NEMA17 Stepper Motor x2 (these should have M3 screw holes on the front plate and have a male connector for the wires)
-Stepper Drivers x2
-MG90s Servo Motor x1
-Long Wires for NEMA17
+- 12V DC wall Adapter (comes with barrel plug)
+- Arduino Uno x1
+- CNC Shield V3 for Arduino x1
+- NEMA17 Stepper Motor x2 (these should have M3 screw holes on the front plate and have a male connector for the wires)
+- Stepper Drivers x2
+- MG90s Servo Motor x1
+- Long Wires for NEMA17
 
 # Nuts
 Hex Nuts:
@@ -28,10 +32,9 @@ Hex Nuts:
 - M4 x10-15
 - M5 x10-20
 
-Sliding Nuts (for 2020 V Slot):
+Sliding Nuts (aka T-nuts) (for 2020 V Slot):
 - M4 x8-10
-- M5 x2
-These are also called T-nuts,
+- M5 x2  
 
 # Bolts
 There are many bolts available, button heads / allen heads should be fine.
@@ -55,32 +58,34 @@ M5
 
 # Helper Tools
 Spanners / Wrenches
+
 Allen Keys:
 - for GT2 Pulley (NEMA) grub screws
 - for M3, M4, M5 allen head bolts
 - for Low Profile M5 bolts (the one for M4 allen heads should like work)
+
 Washers
 
 # 3D Printing
-Filament of Choice
-3D Printer
-Metallic Files
-STL Files (available on GitHub), also has extra round spacers if needed
+- Filament of Choice
+- 3D Printer
+- Metallic Files
+- STL Files (available on GitHub), also has extra round spacers if needed
 
 # Other Tools
-Mini Zipties x8-10
-Soldering Station
-Wire cutters, strippers
-Spare Wires
-Multimeter, alligator clips
-Screw drivers for stepper driver / bolts (if needed)
+- Mini Zipties x8-10
+- Soldering Station
+- Wire cutters, strippers
+- Spare Wires
+- Multimeter, alligator clips
+- Screw drivers for stepper driver / bolts (if needed)
 
 ---
 
 # Indian Vendors (Online)
 
-[Roboticsdna.in](Roboticsdna.in)
-[Robu.in](Robu.in)
-[Robocraze.com](Robocraze.com)
-[Flyrobo.in](Flyrobo.in)
-Then there's always [amazon.in](amazon.in)
+- [Roboticsdna.in](https://Roboticsdna.in)
+- [Robu.in](https://Robu.in)
+- [Robocraze.com](https://Robocraze.com)
+- [Flyrobo.in](https://Flyrobo.in)
+- Then there's always [amazon.in](https://amazon.in)
