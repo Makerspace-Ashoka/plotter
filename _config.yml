@@ -1,5 +1,5 @@
 title: How I built a Pen Plotter
 description: Documenting the journey of building my first hardware project
-theme: minima
+theme: jekyll-theme-minima
 minima: 
   skin: auto
