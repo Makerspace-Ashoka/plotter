@@ -53,13 +53,12 @@ M5
 - 30mm x6-8
 - 45mm x10-15
 
-# Other Similar
+# Helper Tools
 Spanners / Wrenches
 Allen Keys:
 - for GT2 Pulley (NEMA) grub screws
 - for M3, M4, M5 allen head bolts
 - for Low Profile M5 bolts (the one for M4 allen heads should like work)
-
 Washers
 
 # 3D Printing
@@ -75,3 +74,13 @@ Wire cutters, strippers
 Spare Wires
 Multimeter, alligator clips
 Screw drivers for stepper driver / bolts (if needed)
+
+---
+
+# Indian Vendors (Online)
+
+[Roboticsdna.in](Roboticsdna.in)
+[Robu.in](Robu.in)
+[Robocraze.com](Robocraze.com)
+[Flyrobo.in](Flyrobo.in)
+Then there's always [amazon.in](amazon.in)

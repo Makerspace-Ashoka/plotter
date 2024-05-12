@@ -4,7 +4,7 @@ title: DIY Plotter
 
 # Materials
 
-For a comprehensive **list of parts** I used, refer to [<parts_list.md>](./parts_list.html)
+For a comprehensive **list of parts** I used, refer to [parts list.](./parts_list.html)
 
 ---
 
@@ -61,7 +61,7 @@ Alternatively, one can use a ready-made adapter the connector. It should have a 
 - Attach the stepper drivers to x and y axis slots of the CNC shield.
 - (Temporary) Attach the shield to the arduino.
 
-- Do a test run of the motors and drivers. The test code available on this repo ([click here](CNC_shield_test/CNC_shield_test.ino)) can be used. I found it on this [YouTube video](https://youtu.be/zUb8tiFCwmk).
+- Do a test run of the motors and drivers. The test code available on this repo ([click here](github.com/shivamkedia17/plotter/tree/main/CNC_shield_test/CNC_shield_test.ino)) can be used. I found it on this [YouTube video](https://youtu.be/zUb8tiFCwmk).
 - Simply attach the motors to the shield, upload the code to the arduino, power on the DC adapter and the two motors should gently spin with a short pause right after.![alt text](<photos/shield assembled.jpg>)
 - If the motors are too noisy / not spinning properly / heating too much, set Vref according to your motor driver (since the current limit for the steppers is 1A). Consult the internet for details on this step.
 
@@ -76,7 +76,7 @@ Alternatively, one can use a ready-made adapter the connector. It should have a 
 
 As I went throught the video above, I started reverse engineering the design on CAD, since my submissions required STEP files.
 
-It took me two nights, and a lot of guesstimating + calliper use to finally come up with the [STEP](step-files) / [STL](stl-files) files that can be found in my repository.
+It took me two nights, and a lot of guesstimating + calliper use to finally come up with the [STEP](github.com/shivamkedia17/plotter/tree/main/step-files) / [STL](github.com/shivamkedia17/plotter/tree/main/stl-files) files that can be found in my repository.
 
 It wasn't that difficult to eyeball the widths of the bigger parts (feet for e.g). For the finer parts like the Arduino Holder, Pen lifter (using the servo wing), NEMA 17 mount and Idler mounts it was easy to find STEP files for these parts themselves, and with the help of CAD assemblies, I referenced these parts and tried to make accurate designs.
 
