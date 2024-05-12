@@ -183,6 +183,8 @@ Arduino Plate:
 
 5. Install plugins for Inkscape: [https://github.com/bullestock/4xidraw](https://github.com/bullestock/4xidraw)
 
+Read more about G-Code here: [https://www.norwegiancreations.com/2015/08/an-intro-to-g-code-and-how-to-generate-it-using-inkscape/](https://www.norwegiancreations.com/2015/08/an-intro-to-g-code-and-how-to-generate-it-using-inkscape/)
+
 # Example Usage
 
 # Aside: Gathering Materials
