@@ -111,7 +111,9 @@ Something similar happened with the y-axis. The wheels across the profile were r
 # Assembly
 
 ## Build Timelapse
-Here's a timelapse stitched together to cover almost the entire assembly process. I ended up not recording the parts where I had to troubleshoot, simply because I was trying to figure out what was going wrong.
+Here's a timelapse stitched together to cover almost the entire assembly process. I ended up not recording the parts where I had to troubleshoot, simply because I was trying to figure out what was going wrong. 
+
+Please find the [video here](https://youtu.be/O-tHqOsZ5go).
 
 ## Build instructions
 In hindsight, here's the order I would suggest to someone following this blog as a guide to recreate the build:
@@ -201,6 +203,11 @@ Read more about G-Code here: [https://www.norwegiancreations.com/2015/08/an-intr
 6. While using UGS if there is an error claiming the feed rate wasn't set, enter `F<some-feed-rate>` (e.g F1000) in the console.
 
 7. Select and send the G-Code file using the sender.
+
+# Video Demo
+
+[Here's how](https://youtu.be/HApuH0hwS18) the machine looks when writing a simple G-Code file containing "abc 123 ABC".
+
 
 # Aside: Gathering Materials
 
