@@ -98,6 +98,8 @@ I realised the pen clip was much smaller than expected so I had to revise it.
 Also, my designs didn't accomodate the wider (7mm) head of the eccentric spacer that would sit flush with the bottom surface of the x-axis' top gantry plate. So I made holes for these.
 The M5 bolts had a roughly 10mm wide head which was also 2.5 mm long (since I couldn't find the low profile versions that were 45mm long). I ended up having a wider, shallower holes on the top of the x-axis gantry so that bolt heads could sit flush on the top plate.
 
+![alt text](photos/reprints.jpg)
+
 ## Updating Designs
 
 After test printing, I realised the pen clip was much smaller than expected so I had to revise it.
@@ -132,6 +134,8 @@ Now attach the other x-axis gantry plate, and use the hex (or nyloc) nuts to com
 Timing belts:
 It essential that the belts are have enough tension. This is tricky business. The wheels must slide properly but also not be too loose.
 
+![alt text](<photos/gt2 belt.jpg>)
+
 1. X-axis:
     - start by slightly adjusting the feet and pushing them inward by a couple mm on either side.
     - slide the belt into one the cutouts of the gantry plate, all the way around the 2040 profile, the NEMA 17 followed by the other and slide it out of the other cutout. If you haven't cut the belt to an appropriate length yet, ensure you leave 3-4cm excess on both ends before cutting.
@@ -165,7 +169,8 @@ Arduino Plate:
 1. Ensure that your electronics work. Setup the stepper drivers as mentioned earlier.
 2. Connect the motor on the 2040 profile to the pins of the x-axis stepper driver on the CNC shield. Use a long cable.![alt text](<photos/wiring - long wires.jpg>)![alt text](<photos/wiring - right foot.jpg>)
 3. Connect the motor on the 2020 profile to the pins beside the y-axis stepper driver.![alt text](<photos/wiring - y axis.jpg>)
-4. Connect the servo to the pins as shown in the image.
+4. Connect the servo to the pins as shown in the image. (The red & yellow wires correspond to the servo's red & yellow, the green extends the servo's brown.)
+![alt text](<photos/servo wiring.jpg>)
 5. Connect the CNC shield to the arduino. The cutouts of the boards should be aligned.![alt text](<photos/wiring - shield on plate.jpg>)
 6. (Optional) Use a housing for the cables.
 
@@ -179,13 +184,23 @@ Arduino Plate:
 
 3. Install a G-code sender. I used UGS (Universal G-Code Sender): [https://universalgcodesender.com](https://universalgcodesender.com)
 
-4. Install Inkscape (to send G-Code for an image): [https://inkscape.org](https://inkscape.org)
-
-5. Install plugins for Inkscape: [https://github.com/bullestock/4xidraw](https://github.com/bullestock/4xidraw)
-
 Read more about G-Code here: [https://www.norwegiancreations.com/2015/08/an-intro-to-g-code-and-how-to-generate-it-using-inkscape/](https://www.norwegiancreations.com/2015/08/an-intro-to-g-code-and-how-to-generate-it-using-inkscape/)
 
 # Example Usage
+
+1. The wall adapter powers on the stepper motors. Make sure to move the X and Y axis to where you would like the X0 and Y0 coordinates to be before switching on the wall adapter.
+
+2. Connecting the arduino to your laptop using a USB cable powers up the servo.
+
+3. Generate the G-Code files using suitable software. (I had trouble finding plugins that would be compatible with my laptop, so for the test run, I used a random G-Code file available on the internet.)
+
+4. Open your G-Code sender app. Connect to the machine.
+
+5. Adjust the machine's firmware settings, the setup wizard on UGS can help with this.
+
+6. While using UGS if there is an error claiming the feed rate wasn't set, enter `F<some-feed-rate>` (e.g F1000) in the console.
+
+7. Select and send the G-Code file using the sender.
 
 # Aside: Gathering Materials
 
@@ -278,5 +293,7 @@ Couldn't find these. Possible alternatives:
 - Cut 3mm allen keys
 
 I ended up using the springs and refills from those clicky ball pens. The refills were 3mm wide and the spring was roughly 4mm so they did the job.
+
+![alt text](<photos/pen refills.jpg>)
 
 Thanks for reading, hope this inspires you to build smth on ur own!
