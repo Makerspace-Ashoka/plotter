@@ -1,7 +1,7 @@
 The machine's design was inspired and reverse engineered from this youtube video:
-[https://youtu.be/CW3tCkms7oM?si=zcMRKgs8F6E5Ye7R].
+[https://youtu.be/CW3tCkms7oM?si=zcMRKgs8F6E5Ye7R](https://youtu.be/CW3tCkms7oM?si=zcMRKgs8F6E5Ye7R).
 
-Corresponding usage was available on this video: [https://youtu.be/bhzCfIEzs0w?si=ZM_HDrldhI3U40fd].
+Corresponding usage was available on this video: [https://youtu.be/bhzCfIEzs0w?si=ZM_HDrldhI3U40fd](https://youtu.be/bhzCfIEzs0w?si=ZM_HDrldhI3U40fd).
 
 # Summary of Work
 
@@ -47,6 +47,6 @@ The arduino and CNC shield are cheaply available parts which served the purpose 
 ## Software
 
 There are two steps when using the machine:
-+ First an image needs to converted to G-Code. While I found Inkscape and some corresponding extensions, it would take a lot of time to adequately resolve compatibility issues, so I used a readily-available G-Code file instead. (Credits: [https://github.com/misan/gcodeFont])
++ First an image needs to converted to G-Code. While I found Inkscape and some corresponding extensions, it would take a lot of time to adequately resolve compatibility issues, so I used a readily-available G-Code file instead. (Credits: [https://github.com/misan/gcodeFont](https://github.com/misan/gcodeFont))
 
 + Then a G-Code Sender connects to the GRBL firmware running on the arduino and sends the file above to the plotter which then plots it.
